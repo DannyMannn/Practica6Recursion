@@ -24,6 +24,6 @@ public class BusquedaBinaria {
         BusquedaBinaria bb = new BusquedaBinaria();
         int A[] = {3,6,9,10,12,13,20,22,23,25,30};
         int num = 22;
-        System.out.println("Posicion de "+num+": "+bb.busquedaBinaria(A,0,A.length,num));
+        System.out.println("Posicion de "+num+": "+bb.busquedaBinaria(A,0,A.length-1,num));
     }
 }
